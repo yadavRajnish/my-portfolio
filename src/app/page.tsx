@@ -17,7 +17,7 @@ export default function Home() {
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
                 Hi, I&apos;m <span className="text-primary">Rajnish Yadav</span>
               </h1>
-              <p className="text-xl text-muted-foreground md:text-2xl">Full Stack Developer & UI/UX Designer</p>
+              <p className="text-xl text-muted-foreground md:text-2xl">MERN Stack Developer</p>
               <p className="max-w-[600px] text-muted-foreground md:text-lg">
                 I create beautiful, functional, and user-centered digital experiences. With expertise in modern web
                 technologies, I bring ideas to life through code and design.
