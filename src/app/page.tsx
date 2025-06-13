@@ -1,5 +1,3 @@
-// import { Button } from "@/components/ui/button"
-// import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ArrowRight, Code, Palette, Zap } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
@@ -17,7 +15,7 @@ export default function Home() {
           <div className="space-y-6">
             <div className="space-y-4">
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-                Hi, I'm <span className="text-primary">Rajnish Yadav</span>
+                Hi, I&apos;m <span className="text-primary">Rajnish Yadav</span>
               </h1>
               <p className="text-xl text-muted-foreground md:text-2xl">Full Stack Developer & UI/UX Designer</p>
               <p className="max-w-[600px] text-muted-foreground md:text-lg">
@@ -162,7 +160,7 @@ export default function Home() {
           <div className="space-y-4 max-w-[600px] mx-auto">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Work Together?</h2>
             <p className="text-primary-foreground/80 md:text-lg">
-              I'm always interested in new opportunities and exciting projects. Let's discuss how we can bring your
+              I&apos;m always interested in new opportunities and exciting projects. Let&apos;s discuss how we can bring your
               ideas to life.
             </p>
             <Button size="lg" variant="secondary" asChild>

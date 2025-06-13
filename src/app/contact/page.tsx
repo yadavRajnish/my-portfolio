@@ -42,7 +42,7 @@ export default function Contact() {
       <div className="space-y-4 text-center mb-12">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">Get In Touch</h1>
         <p className="text-muted-foreground max-w-[600px] mx-auto md:text-lg">
-          I'd love to hear from you. Send me a message and I'll respond as soon as possible.
+          I&apos;d love to hear from you. Send me a message and I&apos;ll respond as soon as possible.
         </p>
       </div>
 
@@ -51,7 +51,7 @@ export default function Contact() {
         <Card>
           <CardHeader>
             <CardTitle>Send a Message</CardTitle>
-            <CardDescription>Fill out the form below and I'll get back to you within 24 hours.</CardDescription>
+            <CardDescription>Fill out the form below and I&apos;ll get back to you within 24 hours.</CardDescription>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -86,7 +86,7 @@ export default function Contact() {
                 <Input
                   id="subject"
                   name="subject"
-                  placeholder="What's this about?"
+                  placeholder="What&apos;s this about?"
                   value={formData.subject}
                   onChange={handleChange}
                   required
@@ -178,11 +178,11 @@ export default function Contact() {
 
           <Card>
             <CardHeader>
-              <CardTitle>Let's Work Together</CardTitle>
+              <CardTitle>Let&apos;s Work Together</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-4">
-                I'm always interested in new opportunities and exciting projects. Whether you have a project in mind or
+                I&apos;m always interested in new opportunities and exciting projects. Whether you have a project in mind or
                 just want to chat about technology, feel free to reach out!
               </p>
               <div className="space-y-2 text-sm">

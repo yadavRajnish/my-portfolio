@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Inter } from "next/font/google";
-import "./globals.css";
-import Header from "./components/Header";
+import { Inter } from "next/font/google";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
+import "./globals.css";
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
