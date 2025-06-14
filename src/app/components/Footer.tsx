@@ -4,8 +4,8 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react"
 export default function Footer() {
   return (
     <footer className="border-t bg-background">
-      <div className="container px-4 py-8 md:px-6">
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+         <div className="px-4 py-16 md:px-32">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Portfolio</h3>
             <p className="text-sm text-muted-foreground">
@@ -63,10 +63,10 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 border-t pt-8 text-center">
+      </div>
+        <div className="mt-8 border-t pb-12 pt-4 text-center w-full">
           <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Your Name. All rights reserved.</p>
         </div>
-      </div>
     </footer>
   )
 }

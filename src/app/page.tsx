@@ -5,10 +5,9 @@ import { Badge } from "./components/ui/badge"
 import { Button } from "./components/ui/buttton";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./components/ui/card";
 
-
 export default function Home() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col w-full justify-between items-center">
       {/* Hero Section */}
       <section className="container px-4 py-16 md:px-6 md:py-24">
         <div className="grid gap-8 lg:grid-cols-2 lg:gap-12 items-center">
@@ -37,7 +36,8 @@ export default function Home() {
           </div>
           <div className="flex justify-center">
             <Image
-              src="/placeholder.svg?height=400&width=400"
+              // src="/placeholder.svg?height=400&width=400"
+              src="/Images/portfolio-avatar.png"
               alt="Profile"
               width={400}
               height={400}
@@ -49,7 +49,7 @@ export default function Home() {
 
       {/* Skills Section */}
       <section className="bg-muted/50 py-16">
-        <div className="container px-4 md:px-6">
+        <div className="px-4 md:px-6">
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">What I Do</h2>
             <p className="text-muted-foreground max-w-[600px] mx-auto">
@@ -155,8 +155,8 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-primary text-primary-foreground py-16">
-        <div className="container px-4 md:px-6 text-center">
+      <section className="bg-primary text-primary-foreground py-16 w-full">
+        <div className="px-4 md:px-6 text-center w-full">
           <div className="space-y-4 max-w-[600px] mx-auto">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Work Together?</h2>
             <p className="text-primary-foreground/80 md:text-lg">

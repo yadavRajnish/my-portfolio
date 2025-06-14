@@ -59,8 +59,8 @@ export default function ExperiencePage() {
   ]
 
   return (
-    <div className="container px-4 py-16 md:px-6">
-      <div className="space-y-4 text-center mb-12">
+    <div className="px-4 py-16 md:px-32">
+      <div className="space-y-4 text-center mb-12 ">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">Experience</h1>
         <p className="text-muted-foreground max-w-[600px] mx-auto md:text-lg">
           My professional journey and the projects I&apos;ve worked on throughout my career.
