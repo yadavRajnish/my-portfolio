@@ -125,7 +125,7 @@ export default function Contact() {
                 <Mail className="h-5 w-5 text-primary" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <p className="text-sm text-muted-foreground">your.email@example.com</p>
+                  <p className="text-sm text-muted-foreground">rajnishyadav5509@gmail.com</p>
                 </div>
               </div>
 
@@ -133,7 +133,7 @@ export default function Contact() {
                 <Phone className="h-5 w-5 text-primary" />
                 <div>
                   <p className="font-medium">Phone</p>
-                  <p className="text-sm text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-sm text-muted-foreground">+91 8692965123</p>
                 </div>
               </div>
 
@@ -141,7 +141,7 @@ export default function Contact() {
                 <MapPin className="h-5 w-5 text-primary" />
                 <div>
                   <p className="font-medium">Location</p>
-                  <p className="text-sm text-muted-foreground">Your City, Country</p>
+                  <p className="text-sm text-muted-foreground">Mumbai, India</p>
                 </div>
               </div>
             </CardContent>
@@ -155,7 +155,7 @@ export default function Contact() {
             <CardContent>
               <div className="flex space-x-4">
                 <Button variant="outline" size="icon" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/yadavRajnish" target="_blank" rel="noopener noreferrer">
                     <Github className="h-4 w-4" />
                     <span className="sr-only">GitHub</span>
                   </a>

@@ -1,39 +1,64 @@
 // import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 // import { Badge } from "@/components/ui/badge"
-import { CalendarDays, MapPin, Building } from "lucide-react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card"
-import { Badge } from "../components/ui/badge"
+import { CalendarDays, MapPin, Building } from "lucide-react";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "../components/ui/card";
+import { Badge } from "../components/ui/badge";
 
 export default function ExperiencePage() {
   const experiences = [
-    {
-      title: "Senior Full Stack Developer",
-      company: "Tech Solutions Inc.",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
-      description:
-        "Lead development of scalable web applications using React, Node.js, and cloud technologies. Mentored junior developers and collaborated with cross-functional teams to deliver high-quality products.",
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL", "Docker"],
-    },
-    {
-      title: "Frontend Developer",
-      company: "Digital Agency Co.",
-      location: "New York, NY",
-      period: "2020 - 2022",
-      description:
-        "Developed responsive web applications and collaborated with designers to create pixel-perfect user interfaces. Improved application performance by 40% through optimization techniques.",
-      technologies: ["React", "Vue.js", "JavaScript", "SASS", "Webpack", "Jest"],
-    },
-    {
-      title: "Junior Web Developer",
-      company: "StartUp Ventures",
-      location: "Austin, TX",
-      period: "2019 - 2020",
-      description:
-        "Built and maintained company websites and web applications. Gained experience in full-stack development and agile methodologies.",
-      technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "WordPress"],
-    },
-  ]
+  {
+    title: "Junior MERN Stack Developer",
+    company: "Millicent Technologies",
+    location: "Mumbai, India",
+    period: "Aug 2024 - Present",
+    description:
+      "Built and maintained scalable web applications using React, Next.js, Node.js, and Nest.js. Collaborated with UI/UX designers to develop pixel-perfect interfaces. Optimized performance and code efficiency, achieving a 40% improvement in application speed. Integrated databases using Sequelize with MySQL and MongoDB.",
+    technologies: [
+      "React",
+      "Next",
+      "Node.js",
+      "Nest.js",
+      "TypeScript",
+      "Sequelize",
+      "MySQL",
+      "MongoDB",
+    ],
+  },
+  {
+    title: "React Developer Intern",
+    company: "Nextgen Techno Ventures Pvt. Ltd",
+    location: "Mumbai, India",
+    period: "Feb 2024 - Apr 2024",
+    description:
+      "Assisted in building interactive user interfaces using React.js and Vue.js. Collaborated with senior developers to debug and enhance application functionality. Gained hands-on experience in modern JavaScript frameworks and improved front-end responsiveness.",
+    technologies: ["React.js", "Vue.js", "JavaScript"],
+  },
+  {
+    title: "Technical Support",
+    company: "Antraweb Technologies Pvt. Ltd",
+    location: "Mumbai, India",
+    period: "May 2022 - Dec 2022",
+    description:
+      "Provided technical support for Tally Prime users by resolving installation, configuration, and connectivity issues. Configured firewall settings and maintained secure network access. Assisted clients with troubleshooting software-related concerns, ensuring minimal downtime.",
+    technologies: ["Tally Prime", "Firewall"],
+  },
+  {
+    title: "Digital Marketing Intern",
+    company: "Saraf Tech",
+    location: "Remote",
+    period: "Jul 2021 - Aug 2021",
+    description:
+      "Executed basic SEO strategies to improve website visibility and traffic. Conducted keyword research, optimized on-page content, and tracked site performance using Google Analytics. Gained foundational experience in digital marketing tools and techniques.",
+    technologies: ["SEO"],
+  },
+];
+
 
   const projects = [
     {
@@ -52,18 +77,22 @@ export default function ExperiencePage() {
     },
     {
       title: "Portfolio Website",
-      description: "Created a responsive portfolio website with modern design and smooth animations.",
+      description:
+        "Created a responsive portfolio website with modern design and smooth animations.",
       technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
       year: "2022",
     },
-  ]
+  ];
 
   return (
     <div className="px-4 py-16 md:px-32">
       <div className="space-y-4 text-center mb-12 ">
-        <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">Experience</h1>
+        <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">
+          Experience
+        </h1>
         <p className="text-muted-foreground max-w-[600px] mx-auto md:text-lg">
-          My professional journey and the projects I&apos;ve worked on throughout my career.
+          My professional journey and the projects I&apos;ve worked on
+          throughout my career.
         </p>
       </div>
 
@@ -122,7 +151,9 @@ export default function ExperiencePage() {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">{project.description}</p>
+                <p className="text-muted-foreground mb-4">
+                  {project.description}
+                </p>
                 <div className="flex flex-wrap gap-2">
                   {project.technologies.map((tech) => (
                     <Badge key={tech} variant="secondary" className="text-xs">
@@ -136,5 +167,5 @@ export default function ExperiencePage() {
         </div>
       </section>
     </div>
-  )
+  );
 }

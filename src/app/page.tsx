@@ -71,6 +71,7 @@ export default function Home() {
                   <Badge variant="secondary">Next.js</Badge>
                   <Badge variant="secondary">TypeScript</Badge>
                   <Badge variant="secondary">Tailwind CSS</Badge>
+                  <Badge variant="secondary">Bootstrap</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -84,8 +85,10 @@ export default function Home() {
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">Node.js</Badge>
-                  <Badge variant="secondary">Python</Badge>
-                  <Badge variant="secondary">PostgreSQL</Badge>
+                  <Badge variant="secondary">Nestjs</Badge>
+                  <Badge variant="secondary">Expessjs</Badge>
+                  <Badge variant="secondary">Sequelize</Badge>
+                  <Badge variant="secondary">MySql</Badge>
                   <Badge variant="secondary">MongoDB</Badge>
                 </div>
               </CardContent>
@@ -102,9 +105,6 @@ export default function Home() {
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">Figma</Badge>
-                  <Badge variant="secondary">Adobe XD</Badge>
-                  <Badge variant="secondary">Prototyping</Badge>
-                  <Badge variant="secondary">User Research</Badge>
                 </div>
               </CardContent>
             </Card>
