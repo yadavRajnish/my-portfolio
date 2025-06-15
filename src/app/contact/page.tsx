@@ -43,7 +43,7 @@ export default function Contact() {
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       )
       .then(
-        (result) => {
+        () => {
           notify.success("Message sent successfully!");
           setFormData({ name: "", email: "", subject: "", message: "" });
         },
