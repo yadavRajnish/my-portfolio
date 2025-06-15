@@ -47,29 +47,34 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">Connect</h3>
             <div className="flex space-x-4">
               <Link
-                href="#"
+                href="https://github.com/yadavRajnish"
+                target="_blank"
                 className="text-muted-foreground hover:text-primary"
               >
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </Link>
               <Link
-                href="#"
+                href="https://www.linkedin.com/in/rajnishhyadav/"
+                target="_blank"
                 className="text-muted-foreground hover:text-primary"
               >
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
-                href="#"
+                href="https://x.com/rajnish94302588"
+                target="_blank"
                 className="text-muted-foreground hover:text-primary"
               >
                 <Twitter className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link
-                href="#"
-                className="text-muted-foreground hover:text-primary"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=rajnishyadav5509@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary flex items-center gap-2"
               >
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
