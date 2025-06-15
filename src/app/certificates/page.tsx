@@ -1,14 +1,9 @@
-// import { Card, CardContent, CardDescription, CardHeader, CardTitle } from ".../components/ui/card"
-// import { Badge } from "@/components/ui/badge"
-// import { Button } from "@/components/ui/button"
 import { ExternalLink, Award, Calendar } from "lucide-react";
 import Image from "next/image";
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
+  CardHeader
 } from "../components/ui/card";
 import { Badge } from "../components/ui/badge";
 import { Button } from "../components/ui/buttton";
