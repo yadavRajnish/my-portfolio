@@ -17,6 +17,7 @@ import { Textarea } from "../components/ui/textarea";
 import emailjs from "@emailjs/browser";
 
 import { useRef } from "react";
+import { notify } from "../components/toaster/toaster";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -43,13 +44,12 @@ export default function Contact() {
       )
       .then(
         (result) => {
-          console.log("Email sent:", result);
-          alert("Message sent successfully!");
+          notify.success("Message sent successfully!");
           setFormData({ name: "", email: "", subject: "", message: "" });
         },
         (error) => {
           console.error("Email error:", error.text);
-          alert("Failed to send message. Please try again later.");
+          notify.error("Failed to send message. Please try again later.");
         }
       );
   };

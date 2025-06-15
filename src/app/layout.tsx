@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./globals.css";
+import { ToastProvider } from "./components/toaster/toaster";
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
@@ -21,6 +22,7 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col w-full">
           <Header />
           <main className="flex-1">{children}</main>
+          <ToastProvider />
           <Footer />
         </div>
       </body>
